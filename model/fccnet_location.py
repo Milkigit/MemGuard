@@ -3,7 +3,8 @@ import keras
 from keras.regularizers import l2
 from keras import backend as K
 from keras.models import Model
-from keras.models import Sequential
+# from keras.models import Sequential
+from tensorflow.keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Input, concatenate
 import numpy as np
 np.random.seed(10000)

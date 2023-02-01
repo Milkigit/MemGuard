@@ -6,7 +6,8 @@ import keras
 from keras.models import Model
 from keras.backend.tensorflow_backend import set_session
 from keras import backend as K
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import os
 import configparser
 import argparse
