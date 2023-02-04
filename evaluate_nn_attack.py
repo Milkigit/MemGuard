@@ -46,7 +46,7 @@ set_session(tf.Session(config=config_gpu))
 
 #########loading defense data###################
 (x_evaluate,y_evaluate,l_evaluate)=input_data.input_data_attacker_evaluate()
-evaluation_noise_filepath=result_folder+"/attack/"+"noise_data_evaluation.npz"
+evaluation_noise_filepath=result_folder+"attack/"+"noise_data_evaluation.npz"
 print(evaluation_noise_filepath)
 if not os.path.isfile(evaluation_noise_filepath):
     raise FileNotFoundError
